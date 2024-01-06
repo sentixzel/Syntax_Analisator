@@ -190,3 +190,8 @@ void Lexer::DeleteSpaces()
     tokens = buf;
     buf.clear();
 }
+
+std::vector<Token> Lexer::GetTokens()
+{
+    return tokens;
+}

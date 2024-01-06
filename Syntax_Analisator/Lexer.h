@@ -24,6 +24,7 @@ class Lexer
 
 public:
 	Lexer(std::string);
+	std::vector<Token> GetTokens();
 
 	void print();	
 };

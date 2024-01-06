@@ -11,10 +11,13 @@ int main()
    {
       he = i * j;
       if(he > i)
-         break;
    }
    char s[] = "string";
    char ch = 'r';
+   switch()
+   {
+         2 + 2 , break;
+   }
 }
 
 void func(int i, char c)

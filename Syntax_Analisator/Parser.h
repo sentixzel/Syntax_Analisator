@@ -20,7 +20,7 @@ class Parser
 	int curPos = 0;
 
 public:
-	void Parse(std::vector<Token>&);
+	void Parse(std::vector<Token>);
 
 	void Transition();
 
@@ -48,4 +48,5 @@ public:
 
 	// for my task
 	void CheckForCorrectBreak();
+	void CheckLoop(MyTokenType);
 };
