@@ -1,0 +1,23 @@
+int s = 0;
+
+void func(int, char);
+
+int main()
+{
+   int i = 9;
+   int he = 0;
+   float y = 2.9;
+   for(int j = 0; j <= 10; j++)
+   {
+      he = i * j;
+      if(he > i)
+         break;
+   }
+   char s[] = "string";
+   char ch = 'r';
+}
+
+void func(int i, char c)
+{
+   i = c;
+}

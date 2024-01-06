@@ -1,0 +1,26 @@
+#pragma once
+
+enum class ParserState
+{
+	DEFAULT,
+
+	IN_MATH,
+
+	IN_FUNCTION,
+	IN_PARAM_FUNCTION,
+	CALL_FUNCTION,
+
+	IN_FOR,
+	IN_WHILE,
+	IN_DO,
+
+	IN_SWITCH,
+	IN_CASE,
+
+	IN_STRUCT,
+	IN_ENUM,
+
+	IN_BRA,
+	IN_PAR,
+	IN_SQR
+};
